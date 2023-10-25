@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
   var result1=Math.cosh(y);
   var result2=Math.floor(z);
 
-  res.send(`[fn] applied to [${x}] is: ${result}  [fn] applied to [${y}] is: ${result1}   [fn] applied to [${z}] is: ${result2}`);
+  res.send(`[log2] applied to [${x}] is: ${result} <br> [cosh] applied to [${y}] is: ${result1} <br>  [floor] applied to [${z}] is: ${result2}`);
 });
 
 module.exports = router;
